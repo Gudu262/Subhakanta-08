@@ -1,0 +1,27 @@
+h1 {
+    font-size: 100px;
+    text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Corrected text-shadow value */
+    text-align: center;
+    text-decoration-color: rgb(242, 127, 255);
+    background-color: rgb(251, 127, 255);
+}
+
+body {
+    background-size: cover; /* Changed 'contain' to 'cover' for a better background fit */
+    opacity: 1; /* Opacity is a value between 0 and 1, not pixels */
+    background-image: url('https://plus.unsplash.com/premium_photo-1671512499810-ac5b5dd3bc2b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    color: rgb(4, 0, 255);
+    display: flex; /* Aligned elements in the body to the center */
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    background-color: rgb(246, 255, 80);
+    font-size: xx-large;
+    color: rgb(0, 0, 0);
+    font-style: oblique;
+    font-weight: bold;
+    word-spacing: 20px; /* Reduced word-spacing for readability */
+    font-family: 'Comic Sans MS', Times, serif;
+}
